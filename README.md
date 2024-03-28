@@ -15,21 +15,21 @@
 
 <h3>If this step has already been completed, you can skip it.</h3>
 
-<h4>[An article from Google about setting up](https://developers.google.com/sheets/api/quickstart/python)</h4>
+<h4><a href="https://developers.google.com/sheets/api/quickstart/python">An article from Google about setting
+up</a></h4>
+<h4>Or use this <a href="https://www.youtube.com/watch?v=zCEJurLGFRk&ab_channel=TechWithTim">video tutorial</a>.</h4>
 
-<h4>Or use this video tutorial:
-[Link](https://www.youtube.com/watch?v=zCEJurLGFRk&ab_channel=TechWithTim)</h4>
+<h4>Check if it's enabled:</h4>
 
-<h4>Check if it's enabled:<br>
-[Google Sheets](https://console.cloud.google.com/apis/library/drive.googleapis.com)<br>
-[Google Driver](https://console.cloud.google.com/apis/library/sheets.googleapis.com)
+<a href="https://console.cloud.google.com/apis/library/drive.googleapis.com"><h4>Google Sheets</h4></a>
+<a href="https://console.cloud.google.com/apis/library/sheets.googleapis.com"><h4>Google Drive</h4></a>
+<h4><a href="https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials">Create credentials.json</a> >
+service account > KEYS > ADD KEY JSON</h4>
 
-<h4>[Create credentials.json](https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials) > service
-account > KEYS > ADD KEY JSON </h4>
 <h4>Put credentials.json into Google_Sheets_API folder</h4>
 
-<h4>Share "Your Table" with your
-[service account email](https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials)</h4>
+<h4>Share "Your Table" with your <a href="https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials">
+service account email</a></h4>
 
 </details>
 <!-- Google OAuth -->
@@ -66,6 +66,13 @@ source venv/bin/activate
 
 ```
 pip install -r requirements.txt
+```
+
+
+<h3>Run:</h3>
+
+```
+python main.py
 ```
 
 </details>
